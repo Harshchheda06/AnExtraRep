@@ -1,0 +1,35 @@
+.container{
+    border: 1px solid rgb(53, 240, 237);
+    width: fit-content;
+    margin:auto;
+    margin-top: 200px;
+    padding:10px 10px 10px 10px;
+    background-color: rgb(239, 255, 255);
+}
+
+
+.inp{
+   float: right;
+   border: 2px solid rgb(228, 82, 82);
+   border-style: inset;
+}
+
+
+.head{
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+}
+
+
+
+#health_report{
+    padding-left: 1px;
+}
+
+.rbtn{
+    text-decoration: none;
+    width: fit-content;
+    margin: auto;
+}

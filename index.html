@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="exp6.css" rel="stylesheet">
+    <script>
+        
+    </script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="head">Submit Form</div>
+        <hr class="hr" color= cyan>        
+        <form name="myForm"  action="index.php" method="post" enctype="multipart/form-data" >
+
+            Name*<input type="text" name="name" class="inp" required><br><br>
+            Age* <input type="text" name="age"class="inp" ><br><br>
+            Weight <input type="number" name="weight" class="inp"><br><br>
+            Email*<input type="text" name="email"class="inp" ><br><br>
+            Health Report*<input type="file" name="health_report" id="health_report" accept=".pdf" ><br>
+            <input type="hidden" value="insert" name="func">            
+            
+            
+           
+            <input type="submit" value="Submit Form" class="sub"><br><br>
+
+            OR<br>
+            <div class="rbtn">
+                <a  href="retrieve.html">Retrieve health report</a>
+
+            </div>
+            
+        </form>
+    </div>
+
+
+  
+    <!-- <script src="exp6.js"></script> -->
+</body>
+</html>
+
